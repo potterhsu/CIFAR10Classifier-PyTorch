@@ -1,4 +1,4 @@
-# CIFAR10Classifier
+# CIFAR10Classifier-PyTorch
 
 Implementation of CIFAR-10 classifier with PyTorch
 
