@@ -25,7 +25,7 @@ class ExampleReader(object):
         """
         if self._example_pointer == self._num_examples:
             return None
-        image = self._images[self._example_pointer].reshape([32, 32, 3], order='F').transpose(1, 0, 2).tostring()
+        image = self._images[self._example_pointer].reshape([3, 32, 32]).transpose(1, 2, 0).tostring()
         label = self._labels[self._example_pointer]
         self._example_pointer += 1
 
