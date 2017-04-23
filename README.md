@@ -3,6 +3,13 @@
 Implementation of CIFAR-10 classifier with PyTorch
 
 
+## Requirements
+
+* Python 2.7
+* PyTorch
+* LMDB
+* Visdom
+
 ## Usage
 
 1. Convert to LMDB format
